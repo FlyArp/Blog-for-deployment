@@ -42,7 +42,6 @@
         {{ ckeditor.config(name='comment') }}
         {{ render_form(form, novalidate=true) }}
         <div class="comment">
-          <!-- TODO: Show all the comments on a post -->
           <ul class="commentList">
             {% for comment in post.comments %}
               <li>
